@@ -8,7 +8,7 @@ Tasks for Project Management course.
 
 - 1.1
 
-    - form a team;
+    - form a team.
 
 - [1.2](./ProductInvention/product_invention.pdf)
 
