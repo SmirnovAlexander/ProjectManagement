@@ -6,7 +6,7 @@ Tasks for Project Management course.
 
 02.03.21
 
-- [1.1](./ProductInvention)
+- [1.1](./ProductInvention/product_invention.pdf)
 
     - form a team;
     - choose project:
