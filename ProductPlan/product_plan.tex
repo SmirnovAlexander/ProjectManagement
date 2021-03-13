@@ -1,0 +1,411 @@
+\documentclass[a4paper,10pt]{article}
+
+% Encoding.
+\usepackage{geometry}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+
+\usepackage{hyperref}
+
+% Code insertion.
+\usepackage[outputdir=build]{minted}
+
+% Math functions.
+\usepackage{amsmath}
+
+% Image insertion.
+\usepackage{svg}
+
+% No line breaks.
+\usepackage[none]{hyphenat}
+
+\title{Задание 3: план управления проектом}
+\author{
+    \begin{tabular}[t]{c@{\extracolsep{8em}}c} 
+        Афанасов Артём     & Смирнов Александр \\
+        &\\ 
+        Струтовский Максим & Феодор Жилкин
+    \end{tabular}
+}
+
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+
+\section{Цели документа}
+
+
+    \begin{itemize}
+        \item 
+        \item 
+        \item 
+    \end{itemize}
+
+\section{Определение проекта}
+
+\subsection{Идентификация проекта}
+
+    \begin{itemize}
+        \item Название: \textit{e}-гриб;
+        \item Заказчик и спонсор проекта: ОАО ``Eco Slavic Fit''
+        \item Исполнитель: ООО ``Камбуча-Рус'';
+    \end{itemize}
+
+\subsection{Постановка задачи}
+
+
+\subsubsection{Явные цели}
+
+    \begin{itemize}
+        \item Приложения под платформы:
+            \begin{itemize}
+                \item iOS;
+                \item Android;
+                \item Web;
+                \item 3500 заказов ЧГ\footnote{Чайный гриб} в день;
+            \end{itemize}
+        \item Произодство ЧГ:
+            \begin{itemize}
+                \item Ферма по производству ЧГ;
+                \item 4000 ЧГ в день;
+            \end{itemize}
+        \item Организация доставки ЧГ до клиента:
+            \begin{itemize}
+                \item 3 склада в разных концах Санкт-Петербурга;
+                \item Аутсорс доставки из складов;
+            \end{itemize}
+        \item Чистая прибыль 10 млн. руб. в месяц;
+    \end{itemize}
+
+
+\subsubsection{Неявные цели}
+
+    \begin{itemize}
+        \item Разобраться в предметной области;
+        \item Получение первичного опыта в управлении проектами.
+    \end{itemize}
+
+
+
+
+\subsection{Рамки проекта}
+
+\subsubsection{Делаем сами}
+
+    \begin{itemize}
+        \item Ферма по выращиванию ЧГ:
+            \begin{itemize}
+                \item Сформировать команду специалистов по ЧГ;
+                \item Арендовать помещение для выращивания ЧГ;
+                \item Купить оборудование для выращивания ЧГ;
+                \item Наладить процессы по выращиванию ЧГ;
+            \end{itemize}
+        \item Нанять персонал:
+            \begin{itemize}
+                \item 5 программистов;
+                \item 3 специалиста по ЧГ;
+                \item 10 сотрудников фермы;
+                \item 9 сотрудников складов;
+                \item 3 маркетолога;
+                \item 3 сотрудника службы поддержки;
+            \end{itemize}
+        \item Разрабока:
+            \begin{itemize}
+                \item Сформировать команду программистов;
+                \item Арендовать офис;
+                \item Разработать план по разработке;
+                \item Наладить процессы по разработке;
+            \end{itemize}
+        \item Маркетинг:
+            \begin{itemize}
+                \item Сформировать команду;
+                \item Составить план по продвижению продукта;
+                \item Сформировать корпоративный бренд;
+            \end{itemize}
+        \item Доставка:
+            \begin{itemize}
+                \item Арендовать склады;
+            \end{itemize}
+        \item Поддержка:
+            \begin{itemize}
+                \item Продумать use-case ЧГ;
+                \item Сформировать команду поддержки:
+                    \begin{itemize}
+                        \item В интернете;
+                        \item По телефону.
+                    \end{itemize}
+                \item Помощь в случае заболевания.
+            \end{itemize}
+    \end{itemize}
+
+
+\subsubsection{Аутсорс}
+
+    \begin{itemize}
+        \item Нанять строителей для обустройства фермы ЧГ;
+        \item Договориться с аутсорс доставкой;
+    \end{itemize}
+
+\subsection{WBS}
+
+    % \begin{figure}[h]
+    %     \includegraphics[width=0.5\textwidth]{./images/}
+    %     \centering
+    % \end{figure}
+
+
+\subsection{Сроки проекта}
+
+    \begin{itemize}
+        \item 12 месяцев;
+    \end{itemize}
+
+\subsection{Основные фазы}
+
+
+
+    \begin{itemize}
+        \item Планирование:
+            \begin{itemize}
+                \item Подготовить детальные планы всего;
+                \item Составление документа с требованиями;
+                \item Оценка ресурсов;
+                \item Расчёт рисков;
+            \end{itemize}
+        \item Основа:
+            \begin{itemize}
+                \item Запустить ферму по выращиванию ЧГ;
+                \item Нанять персонал \& сформировать команду;
+                \item Договориться с аутсорс доставкой;
+            \end{itemize}
+        \item Создание продукта:
+            \begin{itemize}
+                \item Наладить процессы разработки;
+                \item Запустить маркетинговую компанию;
+            \end{itemize}
+        \item Поддержка продукта:
+            \begin{itemize}
+                \item Тренинги для персонала;
+                \item Продвижение продукта;
+                \item Помощь клиентам;
+                \item Непрерывное улучшение продукта;
+            \end{itemize}
+    \end{itemize}
+
+
+
+
+\subsection{Ресурсы}
+    \begin{itemize}
+        \item Оборудование:
+            \begin{itemize}
+                \item Оборудование для фермы;
+                \item Складское оборудование;
+                \item Офисное оборудование;
+                \item Датчики \& лимонадники;
+            \end{itemize}
+
+        \item Аренда помещений:
+            \begin{itemize}
+                \item Ферма;
+                \item 3 склада;
+                \item Офис;
+            \end{itemize}
+
+        \item ПО:
+            \begin{itemize}
+                \item Microsoft Windows;
+                \item Microsoft Office;
+                \item Gitlab EE;
+                \item Figma;
+            \end{itemize}
+
+        \item Финансовые ресурсы:
+            \begin{itemize}
+                \item Аутсорс доставки;
+                \item Выплата ЗП.
+            \end{itemize}
+
+    \end{itemize}
+
+
+\subsection{Ограничения}
+
+    \begin{itemize}
+        \item Финансы:
+            \begin{itemize}
+                \item 50 млн. руб.
+            \end{itemize}
+        \item Временные ограничения:
+            \begin{itemize}
+                \item 12 месяцев;
+                \item Тренд на ЧГ;
+                \item Конкуренция;
+            \end{itemize}
+        \item Ограничения по доставке:
+            \begin{itemize}
+                \item Санкт-Петербург.
+            \end{itemize}
+    \end{itemize}
+
+\subsection{Критерии достижения цели}
+
+    \begin{itemize}
+        \item Приложения под платформы:
+            \begin{itemize}
+                \item iOS;
+                \item Android;
+                \item Web;
+                \item 3500 заказов ЧГ в день;
+            \end{itemize}
+        \item Произодство ЧГ:
+            \begin{itemize}
+                \item Ферма по производству ЧГ;
+                \item 4000 ЧГ в день;
+            \end{itemize}
+        \item Организация доставки ЧГ до клиента:
+            \begin{itemize}
+                \item 3 склада в разных концах Санкт-Петербурга;
+                \item Аутсорс доставки из складов;
+            \end{itemize}
+        \item Чистая прибыль 10 млн. руб. в месяц.
+    \end{itemize}
+
+
+\subsection{Процедуры приёмки}
+
+    \begin{itemize}
+        \item Принимать работу будет комитет из заказчиков;
+        \item Будет 2 митинга:
+            \begin{itemize}
+                \item После срока в 12 месяцев:
+                    \begin{itemize}
+                        \item Для понимания того, что было сделано;
+                        \item Оценка готовности выхода на рынок;
+                        \item Оценка пригодности использования;
+                        \item По результатам оценок будет проходить сдача работ;
+                    \end{itemize}
+                \item После срока в 24 месяца:
+                    \begin{itemize}
+                        \item Чтобы оценить, как идут дела;
+                        \item Анализ бизнес-отчётов;
+                        \item Формирование дальнейшего плана продвижения;
+                        \item $\cdots$
+                    \end{itemize}
+                \item 
+            \end{itemize}
+        \item 
+    \end{itemize}
+
+
+\section{Организационная структура проекта}
+
+\subsection{Заинтересованные лица и их ответственности}
+
+    \begin{itemize}
+        \item Заказчик и спонсор проекта: ОАО ``Eco Slavic Fit''
+            \begin{itemize}
+                \item Принятие стратегических решений;
+                \item Предоставление ресурсов;
+            \end{itemize}
+        \item Исполнитель: ООО ``Камбуча-Рус'';
+            \begin{itemize}
+                \item Выработка и утверждение технических решений;
+            \end{itemize}
+        \item Директор: Смирнов М.Я.
+            \begin{itemize}
+                \item Администрирование
+                \item Операционная деятельность
+            \end{itemize}
+        \item Пользователь
+    \end{itemize}
+
+\subsection{Команда проекта}
+
+    \begin{itemize}
+        \item 3 управленца:
+            \begin{itemize}
+                \item Куратор проекта (Смирнов А. Л.)
+                \item Координатор проекта (Жилкин Ф. И.)
+                \item Руководитель проекта (Струтовский М. Я.)
+                \item Исполнительный директор проекта (Афанасов А. Ю.)
+            \end{itemize}
+        \item 5 программистов;
+        \item 3 специалиста по ЧГ;
+        \item 10 сотрудников фермы;
+        \item 9 сотрудников складов;
+        \item 3 маркетолога;
+        \item 3 сотрудника службы поддержки;
+    \end{itemize}
+
+\subsection{Ресурсы проекта}
+
+
+    \begin{itemize}
+        \item Оборудование:
+            \begin{itemize}
+                \item Оборудование для фермы;
+                \item Складское оборудование;
+                \item Офисное оборудование;
+                \item Датчики \& лимонадники;
+            \end{itemize}
+
+        \item Аренда помещений:
+            \begin{itemize}
+                \item Ферма;
+                \item 3 склада;
+                \item Офис;
+            \end{itemize}
+
+        \item ПО:
+            \begin{itemize}
+                \item Microsoft Windows;
+                \item Microsoft Office;
+                \item Gitlab EE;
+                \item Figma;
+            \end{itemize}
+
+        \item Финансовые ресурсы:
+            \begin{itemize}
+                \item Аутсорс доставки;
+                \item Выплата ЗП.
+            \end{itemize}
+
+    \end{itemize}
+
+
+\section{Основные процедуры управления проектом}
+
+\subsection{Типы отчётов}
+
+    \begin{itemize}
+        \item Ретроспетивы;
+        \item Demo каждую неделю;
+        \item Daily митинги;
+        \item Финансовые отчёты;
+        \item Отчёты с фермы;
+        \item Отчёты от техподдержки;
+    \end{itemize}
+
+
+\subsection{Процедуры управления изменениями}
+
+    \begin{itemize}
+        \item Непрерывное взаимодействие с заказчиком
+        \item Формирование требований для исполнителей
+    \end{itemize}
+
+\subsection{Процедуры анализа хода проекта}
+
+    \begin{itemize}
+        \item Спринты по 2 недели
+        \item Финансовые отчёты каждый месяц
+    \end{itemize}
+
+\end{document}
