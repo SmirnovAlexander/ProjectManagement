@@ -2,6 +2,8 @@
 
 Tasks for Project Management course.
 
+All homeworks should be published to [blackboard](https://bb.spbu.ru/).
+
 ## Homework 1
 
 02.03.21
@@ -16,6 +18,18 @@ Tasks for Project Management course.
         - set goals;
         - designate resources & limitations.
 
-- 1.3
+## Homework 2
 
-    - publish to [blackboard](https://bb.spbu.ru/).
+16.03.21
+
+- [2.1](./ProductRegulations/product_regulation.pdf)
+
+    - create product regulations
+
+## Homework 3
+
+16.03.21
+
+- [3.1](./ProductPlan/product_plan.pdf)
+
+    - create plan of managing project
