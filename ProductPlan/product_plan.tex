@@ -8,6 +8,12 @@
 
 \usepackage{hyperref}
 
+\hypersetup{
+    colorlinks,
+    linkcolor=black,
+    urlcolor=blue
+}
+
 % Code insertion.
 \usepackage[outputdir=build]{minted}
 
@@ -37,15 +43,29 @@
 
 \tableofcontents
 
+\newpage
 
-\section{Цели документа}
+\section{О документе}
 
+\subsection{Цели документа}
 
     \begin{itemize}
-        \item 
-        \item 
-        \item 
+        \item Составить план развития проекта по продаже ЧГ\footnote{Чайный гриб};
     \end{itemize}
+
+\subsection{Термины и определения}
+
+    \begin{itemize}
+        \item ЧГ: чайный гриб;
+    \end{itemize}
+
+\subsection{Другие документы}
+
+    \begin{itemize}
+        \item Описание проекта: \href{https://github.com/SmirnovAlexander/ProjectManagement/blob/master/ProductInvention/product_invention.pdf}{ссылка};
+        \item Устав проекта: \href{https://github.com/SmirnovAlexander/ProjectManagement/blob/master/ProductRegulations/product_regulation.pdf}{ссылка};
+    \end{itemize}
+
 
 \section{Определение проекта}
 
@@ -68,7 +88,7 @@
                 \item iOS;
                 \item Android;
                 \item Web;
-                \item 3500 заказов ЧГ\footnote{Чайный гриб} в день;
+                \item 3500 заказов ЧГ;
             \end{itemize}
         \item Произодство ЧГ:
             \begin{itemize}
@@ -154,11 +174,15 @@
 
 \subsection{WBS}
 
-    % \begin{figure}[h]
-    %     \includegraphics[width=0.5\textwidth]{./images/}
-    %     \centering
-    % \end{figure}
+    \begin{itemize}
+        \item WBS изображена на Рис. 1;
+    \end{itemize}
 
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=1\textwidth]{./pics/wbs.pdf}
+        \caption{wbs}
+    \end{figure}
 
 \subsection{Сроки проекта}
 
@@ -296,11 +320,8 @@
                         \item Чтобы оценить, как идут дела;
                         \item Анализ бизнес-отчётов;
                         \item Формирование дальнейшего плана продвижения;
-                        \item $\cdots$
                     \end{itemize}
-                \item 
             \end{itemize}
-        \item 
     \end{itemize}
 
 
@@ -331,10 +352,10 @@
     \begin{itemize}
         \item 3 управленца:
             \begin{itemize}
-                \item Куратор проекта (Смирнов А. Л.)
-                \item Координатор проекта (Жилкин Ф. И.)
-                \item Руководитель проекта (Струтовский М. Я.)
-                \item Исполнительный директор проекта (Афанасов А. Ю.)
+                \item Куратор проекта (Смирнов А. Л.);
+                \item Координатор проекта (Жилкин Ф. И.);
+                \item Руководитель проекта (Струтовский М. Я.);
+                \item Исполнительный директор проекта (Афанасов А. Ю.);
             \end{itemize}
         \item 5 программистов;
         \item 3 специалиста по ЧГ;
@@ -407,5 +428,230 @@
         \item Спринты по 2 недели
         \item Финансовые отчёты каждый месяц
     \end{itemize}
+
+
+\section{План управления коммуникациями}
+
+\subsection{Участники коммуникации}
+
+    \begin{itemize}
+    \item Люди:
+        \begin{itemize}
+            \item Управленцы;
+            \item Старший маркетолог;
+            \item Старший сотрудник фермы;
+            \item Старший программист;
+            \item Старший специалист по ЧГ;
+        \end{itemize}
+    \item Организации:
+        \begin{itemize}
+            \item ОАО ``Eco Slavic Fit'';
+            \item ООО ``Камбуча-Рус'';
+        \end{itemize}
+    \end{itemize}
+
+\subsection{Способы коммуникации}
+
+    \begin{itemize}
+        \item Телефон;
+        \item Почта;
+        \item Zoom;
+        \item Личные встречи;
+    \end{itemize}
+
+\subsection{График коммуникации}
+
+    \begin{itemize}
+        \item Ежедневные звонки и письма;
+        \item Каждую пятницу Zoom-конференции;
+        \item Личные встречи в конце каждого этапа работы над проектом;
+    \end{itemize}
+
+\subsection{Тех. средства коммуникации}
+
+    \begin{itemize}
+        \item Веб-камера;
+        \item Микрофон;
+    \end{itemize}
+
+\section{План разработки}
+
+\subsection{Фазы проекта}
+
+    \begin{itemize}
+        \item Старт:
+            \begin{itemize}
+                \item Сформированы команды;
+                \item Арендованы складские помещения;
+            \end{itemize}
+
+        \item Подготовка к запуску производства:
+            \begin{itemize}
+                \item Подготовлено оборудование для выращивания ЧГ;
+                \item Закуплены расходные материалы (удобрения, субстракт, споры);
+                \item Разработано бета-ПО;
+            \end{itemize}
+
+
+        \item Запуск производства:
+            \begin{itemize}
+            \item Налажено выращивание ЧГ;
+            \item Налажена доставка до логистических центров;
+            \item Финальная версия ПО;
+            \item Налажена связь со службой поддержки;
+            \item Маркетологи начали рекламную кампанию;
+            \end{itemize}
+
+        \item Начало продаж:
+            \begin{itemize}
+                \item Налажена доставка до потребителя.
+            \end{itemize}
+
+    \end{itemize}
+
+\section{Тестирование в проекте}
+
+    \subsection{Тестирование системы}
+
+        \begin{itemize}
+            \item Функциональное:
+                \begin{itemize}
+                \item Проверка работоспособности ПО;
+                \item Проверка корректности работы датчиков;
+                \end{itemize}
+            \item Регрессионное:
+                \begin{itemize}
+                    \item Тестирование работоспособности системы при расширении зоны продажи;
+                \end{itemize}
+
+            \item Приемочное:
+                \begin{itemize}
+                    \item Удовлетворение требованиям заказчика для принятия работы;
+                \end{itemize}
+
+            \item Нагрузочное:
+                \begin{itemize}
+                    \item Тестирование ПО при большой нагрузке пользователей;
+                \end{itemize}
+
+            \item Ответственный за тестирование системы:
+                \begin{itemize}
+                    \item Струтовский М.Я.;
+                \end{itemize}
+            \item Ошибки:
+                \begin{itemize}
+                    \item Ошибки отслеживаются ПО с помощью Jira;
+                    \item Ошибки в производстве ЧГ заносятся в отчеты;
+                \end{itemize}
+
+        \end{itemize}
+
+    \subsection{Документы тестирования}
+
+        \begin{itemize}
+            \item План тестирования проекта;
+            \item Тесты:
+                \begin{itemize}
+                    \item Тест-кейсы ПО;
+                    \item Чек-лист;
+                    \item Качество ЧГ;
+                \end{itemize}
+            \item Отчёты:
+                \begin{itemize}
+                \item Кол-во найденных ошибок;
+                \item Кол-во исправленных ошибок;
+                \end{itemize}
+
+        \end{itemize}
+
+\section{Управление рисками проекта}
+
+\subsection{Основные источники опасности}
+
+    \begin{itemize}
+        \item Дополнительные затраты на поиск сотрудников:
+            \begin{itemize}
+                \item Периодичность мониторинга -- ежемесячно;
+                \item Реакция -- Реклама и Повышение оклада;
+                \item Вероятность -- 30-40\%;
+            \end{itemize}
+        \item Ухудшение эпидемиологической ситуации в стране:
+            \begin{itemize}
+                \item Периодичность мониторинга -- еженедельно;
+                \item Реакция -- Снижение расходов на выращивание;
+                \item Вероятность -- 20-30\%;
+            \end{itemize}
+
+        \item Отсутствие спроса на ЧГ:
+            \begin{itemize}
+            \item Периодичность мониторинга -- каждые 2 недели;
+            \item Реакция -- агрессивная реклама;
+            \item Вероятность -- 10-20\%;
+            \end{itemize}
+
+        \item Сотрудники не эффективно выполняют свою работу:
+            \begin{itemize}
+                \item Периодичность мониторинга -- ежедневно;
+                \item Реакция -- система поощрения, премии за хорошую работу;
+                \item Вероятность -- 10-20\%;
+            \end{itemize}
+
+        \item Транспортировка продукта в низкую температуру (ниже -10 градусов):
+            \begin{itemize}
+                \item Периодичность мониторинга -- 2 раза в день;
+                \item Реакция -- поиск решений для поддержания температуры курьерами;
+                \item Вероятность -- 5 \%;
+            \end{itemize}
+
+    \end{itemize}
+
+
+\subsection{Топ рисков}
+
+    \begin{itemize}
+        \item Проблема с наймом достаточно квалифицированного персонала;
+        \item Просрочка дедлайнов программистами;
+        \item Транспортировка продукта в низкую температуру (ниже -10 градусов);
+        \item Ухудшение эпидемиологической ситуации в стране;
+        \item Низкая покупательная способность населения;
+        \item Проблемы с контролирующими органами (Санэпидемстанция);
+        \item Отсутствие спроса на чайный гриб (население не готово к такому продукту);
+    \end{itemize}
+
+
+\section{Передача результатов проекта}
+
+\subsection{График передачи результатов}
+
+    \begin{itemize}
+        \item Результаты передаются после завершения этапов старт, подготовка к запуску производства, производство, начало продаж;
+    \end{itemize}
+
+\subsection{Правила передачи результатов}
+
+    \begin{itemize}
+        \item Документация компании с объяснением всех циклов производства и дальнейшей поддержки продукта;
+        \item Полный доступ ко всем отчетам компании;
+        \item Сопроводительное письмо (release notes);
+        \item Описание реализованной функциональности;
+        \item Заключенные контракты с подрядчиками и поставщиками;
+        \item Результаты тестирования;
+        \item Отчеты тестирования;
+    \end{itemize}
+
+\subsection{Способ передачи}
+
+    \begin{itemize}
+        \item Интернет;
+        \item Личная встреча;
+        \item Экскурсия и сопровождение приемной комисии на производстве;
+        \item Помощь в течение трех месяцев после передачи, пока заказчик не поймет полностью весь цикл работы программы.
+    \end{itemize}
+
+
+
+
+
+
 
 \end{document}
