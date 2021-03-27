@@ -33,3 +33,11 @@ All homeworks should be published to [blackboard](https://bb.spbu.ru/).
 - [3.1](./ProductPlan/product_plan.pdf)
 
     - create plan of managing project
+
+## Homework 4
+
+30.03.21
+
+- [4.1](./ProductStructuralDecomposition/product_structural_decomposition.pdf)
+
+    - create structural decomposition of a project
