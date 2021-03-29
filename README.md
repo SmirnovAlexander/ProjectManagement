@@ -41,3 +41,11 @@ All homeworks should be published to [blackboard](https://bb.spbu.ru/).
 - [4.1](./ProductStructuralDecomposition/product_structural_decomposition.pdf)
 
     - create structural decomposition of a project
+
+## Homework 5
+
+30.03.21
+
+- [5.1](./ProductEstimation/product_estimation.pdf)
+
+    - make expert and UCP estimation
