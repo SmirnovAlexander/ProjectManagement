@@ -49,3 +49,11 @@ All homeworks should be published to [blackboard](https://bb.spbu.ru/).
 - [5.1](./ProductEstimation/product_estimation.pdf)
 
     - make expert and UCP estimation
+
+## Homework 6
+
+13.04.21
+
+- [6.1](./ProductTechCommercialOffer/product_tech_commercial_offer.pdf)
+
+    - make technical commercial offer
