@@ -57,3 +57,30 @@ All homeworks should be published to [blackboard](https://bb.spbu.ru/).
 - [6.1](./ProductTechCommercialOffer/product_tech_commercial_offer.pdf)
 
     - make technical commercial offer
+
+
+## Individual Homework 1
+
+23.04.21
+
+- [1.1](./IndividualTaskSummary/lectures_summary.pdf)
+
+    - write 3 lectures summary
+
+
+## Individual Homework 2
+
+23.04.21
+
+- [2.1](./IndividualTaskBookReview/book_review.pdf)
+
+    - write book review
+
+
+## Individual Homework 3
+
+23.04.21
+
+- [3.1](./IndividualTaskEssay/essay.pdf)
+
+    - write course review in essay format
