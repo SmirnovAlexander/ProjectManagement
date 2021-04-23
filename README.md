@@ -66,7 +66,7 @@ All homeworks should be published to [blackboard](https://bb.spbu.ru/).
 
     - make vacancy description
 
-## Homework 7
+## Homework 8
 
 27.04.21
 
