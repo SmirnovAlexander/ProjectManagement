@@ -58,6 +58,21 @@ All homeworks should be published to [blackboard](https://bb.spbu.ru/).
 
     - make technical commercial offer
 
+## Homework 7
+
+27.04.21
+
+- [7.1](./ProductVacancy/product_vacancy.pdf)
+
+    - make vacancy description
+
+## Homework 7
+
+27.04.21
+
+- [8.1](./ProductInterviewPlan/product_interview_plan.pdf)
+
+    - make interview plan
 
 ## Individual Homework 1
 
